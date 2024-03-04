@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="shortcut icon" href="../img1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Javascript Questions</h1>
+        <img src="exam.gif" alt="" srcset="">
+        <div class="content">
+            <button type="submit" id="rules-btn">Rules</button>
+            <button type="submit" data-toggle-id="start-btn">Start</button> 
+        </div>
+        <div class="rules" hidden>
+            
+    <p id="con">  1.) The quizzes consists of questions carefully designed to help you self-assess your comprehension of the information presented on the topics covered in the module. <br><br>
+    <p id="con">  2.) No data will be collected on the website regarding your responses or how many times you take the quiz. </p>    <br><br>
+    <p id="con">  3.) Each question in the quiz is of multiple-choice or "true or false" format.Read each question carefully, and click on the button next to your response that is based on the information covered on the topic in the module.</p><br><br></p>
+        <br>
+        <img class="img1" src="../img1.png" alt="not found" srcset="">
+        <br>
+        <button type="submit" name="close" class="close" id="close">Close</button>
+
+        <h6>Start the Exams</h6>
+  
+        </div>
+
+        <h4>Start the Exams</h4>
+        <form action="" id="answer-id" hidden >
+        <div class="first-answer-table">
+            <p id="questions">1.Javascript is an _______ language?</p>  
+            <button type="submit" name="submit" id="first">Objet orinted</button><!-- Correct answer --> 
+            <button type="submit" name="submit" id="second">Object Based</button>
+            <button type="submit" name="submit" id="third">Procedural</button>
+            <button type="submit" name="submit" id="fourth">None of the above</button>      
+         </div>
+</form>
+    <form action="" id="second-table" hidden>
+        <div class="second-answer-table">
+            <p id="questions">2.Which of the following keywords is used to define a variable in Javascript?</p>
+            <button type="submit" name="submit" id="sec-first">var</button>
+            <button type="submit" name="submit" id="sec-third">let</button>
+            <button type="submit" name="submit" id="sec-second">Both A and B</button><!-- Correct answer -->
+            <button type="submit" name="submit" id="sec-fourth">None of the above</button>
+    </div>
+
+</form>
+    <form action="" id="third-table" hidden>
+        <div class="second-answer-table">
+            <p id="questions">3.Which of the following methods is used to access HTML elements using Javascript?</p>
+            <button type="submit" name="submit" id="third-first">getElementByid()</button>
+            <button type="submit" name="submit" id="third-second">getElementByClassName()</button>
+            <button type="submit" name="submit" id="third-third">None of the abover</button>   
+            <button type="submit" name="submit" id="third-fourth">Bott A and B</button><!-- Correct answer -->
+    </div>
+
+</form>
+    <form action="" id="fourth-table" hidden>
+        <div class="second-answer-table">
+            <p id="questions">4.Upon encountering empty statements, what does the Javascript Interpreter do?</p>
+            <button type="submit" name="submit" id="four-first">Throws an error</button>
+            <button type="submit" name="submit" id="four-second">gives a warning</button>
+            <button type="submit" name="submit" id="four-third">ignores the satements</button> <!-- Correct answer -->
+            <button type="submit" name="submit" id="four-fourth">None of the above</button>
+    </div>
+
+</form>
+    <form action="" id="fivth-table" hidden>
+        <div class="second-answer-table">
+            <p id="questions">5. 
+                Which of the following methods can be used to display data in some form using Javascript?</p>
+            <button type="submit" name="submit" id="fiv-first">All of the above</button> <!-- Correct answer -->
+            <button type="submit" name="submit" id="fiv-second">console.log</button>
+            <button type="submit" name="submit" id="fiv-third">window.alert()</button>
+            <button type="submit" name="submit" id="fiv-fourth">document.write()</button>
+    </div>
+
+</form>
+
+<form action="" id="end-section" hidden>
+<div class="end-container">
+
+    <h1>
+        Thank You 
+    </h1>
+    <button type="submit" id="thankyou">Close</button>
+</div>
+</form>
+    <script src="main.js"></script>
+</body>
+</html>

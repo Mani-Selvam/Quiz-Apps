@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+.container h1{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    text-transform: capitalize;
+}
+.container img{
+    width: 50%;
+    height: auto;
+}
+.container .content{
+    float: right;
+    margin-right: 15%;
+    display: block;
+    margin-top: 5%;
+}
+.container .content > button{
+    width: 100%;
+    padding: 20px;
+    margin: 50px;
+    background-color: #0000ff;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+}
+.container .content > button:hover{
+    background-color: #ff0000;
+    color: #fff;
+}
+#start-btn:hover{
+    background-color: #11e211;
+    color: #000;
+}
+#rules-btn-close{
+    float: right;
+    width: 20%;
+    margin-top: 20%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    background-color: #0000ff;
+    color: #fff;
+    border-radius: 10px;
+}
+#rules-btn-close:hover{
+    background-color: #ff0000;
+    color: #fff;
+}
+.rules{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    outline: #11e211;
+}
+.img1{
+   margin-left : 45%;
+   position: absolute;
+   margin-top: -50%;
+}
+#con{
+    position: relative;
+    width: 50%;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-indent: 1rem;
+    font-family: poppins;
+    text-align: justify;
+}
+h6{
+    margin-left: 45%;
+    margin-top: -10%;
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.view{
+    width: 50%;
+    height: 500px;
+    margin-top: -30%;
+    margin-left: 25%;
+    background-color: rgb(232, 50, 50);
+    transform: translateY(100px);
+    border-radius: 10px;
+    color: #fff;
+    transition: all 2s ease ;
+    padding: 10px;
+    animation: show 1s linear forwards;
+}
+.closetable{
+    transition: all 2s ease;
+    display: none;
+}
+.close{
+    width: 30%;
+    padding: 10px;
+    background-color: #0000ff;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+#thankyou{
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    margin-top: 25%;
+    margin-left: 20%;
+}
+#thankyou:hover{
+    background-color: #ff0000;
+    color: #fff;
+}
+.thank{
+    display: none;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    text-transform: capitalize;
+    text-decoration: dashed;
+}
+.close:hover{
+    background-color: #ffffff;
+    color: #000;
+    transition: 2s all ease;
+}
+@keyframes show{
+    to{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+}           
+
+#answer-id{
+    width: 100%;
+    height: auto;
+    background-color: rgb(101, 99, 101);
+}
+.first-answer-table,.second-answer-table{
+    width: 50%; 
+    padding: 10px;
+    color: #fff;
+    margin: 10px;
+    margin-left: 25%;
+    background-color: rgb(16, 17, 17);
+}
+.first-answer-table > button,.second-answer-table > button{
+    padding: 10px;
+    margin: 20px;
+    width: 90%;
+}
+
+#questions{
+    margin-left: 50px;
+}
+#finish-btn,#clear-btn{
+    width: 25%;
+    padding: 10px;
+    background-color: #0000ff;
+    outline: none;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    display:inline-block;
+    margin-left: 15%;
+}
+
+#finish-btn:hover{
+    background-color: #11e211;
+    color: #000;
+}
+#clear-btn:hover{
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.true{
+    background-color: #11e211;
+    color: #000;
+}
+
+.false{
+    background-color: #ff0000;
+    color: #fff;
+}
+
+#second-table{
+    background-color: rgb(191, 232, 86);
+}
+#third-table{
+    background-color: rgb(238, 85, 85);
+}
+
+#fourth-table{
+    background-color: rgb(157, 237, 242);
+}
+#fivth-table{
+    background-color: rgb(203, 201, 31);
+}
+
+.end-container{
+    width: 100%;
+    height: 400px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding: 10px;
+    margin-left: 50%;
+    border-radius: 10px;
+    left: -100%;
+}
+.end-container h1{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.endview{
+    left: 0;
+    transition: 2s all ease;
+    margin-left: 50%;
+    background-color: snow;
+    color: #000;
+    border: 1px solid #000;
+    margin-top: -40%;
+    filter: blur(20px);
+    opacity: 0;
+    animation: show 1s linear forwards;
+}
